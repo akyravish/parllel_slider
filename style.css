@@ -18,6 +18,8 @@ body {
 	height: 100vh;
 }
 
+/* left side */
+
 .left-slide {
 	position: absolute;
 	top: 0;
@@ -34,4 +36,22 @@ body {
 	justify-content: center;
 	align-items: center;
 	color: #fff;
+}
+
+/* right side */
+
+.right-slide {
+	position: absolute;
+	top: 0;
+	left: 35%;
+	width: 65%;
+	height: 100%;
+}
+
+.right-slide > div {
+	width: 100%;
+	height: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
 }
